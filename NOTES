@@ -1,0 +1,41 @@
+Database
+
+
+
+
+__END__
+
+117:    def add_stored_function(function_name, code)
+132:    def remove_stored_function(function_name)
+147:    def add_user(username, password)
+161:    def remove_user(username)
+176:    def logout
+189:    def collection_names
+198:    def collections
+211:    def collections_info(coll_name=nil)
+237:    def create_collection(name, options={})
+262:    def collection(name)
+273:    def drop_collection(name)
+290:    def error(opts={})
+305:    def get_last_error(opts={})
+319:    def last_status
+328:    def error?
+338:    def previous_error
+353:    def reset_error_history
+364:    def dereference(dbref)
+375:    def eval(code, *args)
+395:    def rename_collection(from, to)
+412:    def drop_index(collection_name, index_name)
+427:    def index_information(collection_name)
+439:    def stats
+448:    def ok?(doc)
+472:    def command(selector, opts={})
+497:    def full_collection_name(collection_name)
+504:    def pk_factory
+511:    def pk_factory=(pk_factory)
+525:    def profiling_level
+546:    def profiling_level=(level)
+565:    def profiling_info
+577:    def validate_collection(name)
+588:    def system_command_collection
+

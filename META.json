@@ -1,0 +1,44 @@
+{
+   "abstract" : "Asynchronous MongoDB client using AnyEvent",
+   "author" : [
+      "Graham Barr"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.200000, CPAN::Meta::Converter version 2.101670",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "AnyEvent-MongoDB",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.31"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "AnyEvent" : "5.271",
+            "Digest::MD5" : 0,
+            "List::Util::XS" : "0.01",
+            "MongoDB" : "0.38",
+            "Moose" : "0.98",
+            "Tie::IxHash" : 0,
+            "namespace::autoclean" : 0
+         }
+      }
+   },
+   "release_status" : "testing",
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/gbarr/AnyEvent-MongoDB.git",
+         "web" : "http://github.com/gbarr/AnyEvent-MongoDB"
+      }
+   },
+   "version" : "0.103620_001"
+}
+

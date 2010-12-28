@@ -1,0 +1,44 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.64.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 892c314835b5fded10964dc1ea6c7c5bf0368ca0 Changes
+SHA1 24680eb2a8fe871c0f35e23caa5b528f4101a21b LICENSE
+SHA1 0e40ab68b58c218b40537d92c53739e58da5a86e MANIFEST
+SHA1 2b6f5b24e417418b26b2c958f6428e2f1efab9c8 META.json
+SHA1 fd07b71d458b7e9a647fbc407494dbac7e2d38de META.yml
+SHA1 8bda40db7d710d823a49a1e164f3ec8facf61925 Makefile.PL
+SHA1 19227dc0709df3869de9d3a3c003c9018ca8a51a NOTES
+SHA1 7ac7d29ad2c4bf5da5ef413a394db22fad3f53da README
+SHA1 4bc919f2f479073337d7696016b22703c8eb8b8c TODO
+SHA1 73c026a9635522c41d0b8f2e6d72dcd3e8fd105e dist.ini
+SHA1 9ecd7de746a4fd15218952ca2d1411c74d6f0158 lib/AnyEvent/MongoDB.pm
+SHA1 f8396121e62a7776b339f8d8092f2b8f40017879 lib/AnyEvent/MongoDB/Collection.pm
+SHA1 61cad57acfbbe62ef82fbd17bec8e32c52fd8793 lib/AnyEvent/MongoDB/Connection.pm
+SHA1 d0635f60398f4de2a2fe1cff663923c6e91b4980 lib/AnyEvent/MongoDB/Database.pm
+SHA1 bdd69e37b4085ea9519eb32bb415aae4ae12ad03 lib/AnyEvent/MongoDB/GridFS.pm
+SHA1 5109a53a24f119212e5910906dff0dc67faf4bc2 lib/AnyEvent/MongoDB/GridFS/File.pm
+SHA1 dc5c4fcbc3c764c4e62d4a79fd7c204122a17ee5 lib/AnyEvent/MongoDB/Pool.pm
+SHA1 39b3ede50c7f392d5ad18baec4b6491600177cd8 lib/AnyEvent/MongoDB/Request.pm
+SHA1 537a57af70436d8e25421ba138378d3054240ad6 t/00-load.t
+SHA1 4a8e79b7cb76aa6f3247feeef7eac81f1870cc23 t/connect.t
+SHA1 1081321ed21f97418ae16563c4f220add8d1a696 tst
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (Darwin)
+
+iEYEARECAAYFAk0Z8/IACgkQR0BL4gbYw3QfgwCeMnfYaYH4VF8Z0X9eTCuPrvcG
+i9sAn3Gsb5+Yjf/muBlZ/FRIn/q7UrL4
+=z5bK
+-----END PGP SIGNATURE-----

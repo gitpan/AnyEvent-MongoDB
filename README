@@ -1,0 +1,13 @@
+
+
+This archive contains the distribution AnyEvent-MongoDB,
+version 0.103620_001:
+
+  Asynchronous MongoDB client using AnyEvent
+
+This software is copyright (c) 2010 by Graham Barr.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+
